@@ -1,0 +1,13 @@
+{
+  "rule": "minimum userID with >=5 original rating>=4 known-genre movies; first5 timestamp then movieID",
+  "userId": 1,
+  "history": [
+    {"id":168,"rating":5,"timestamp":874965478},
+    {"id":172,"rating":5,"timestamp":874965478},
+    {"id":165,"rating":5,"timestamp":874965518},
+    {"id":156,"rating":4,"timestamp":874965556},
+    {"id":166,"rating":5,"timestamp":874965677}
+  ],
+  "otherUsers": "global quality TRAIN",
+  "beforeOutputs": true
+}
