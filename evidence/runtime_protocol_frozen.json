@@ -1,0 +1,14 @@
+{
+  "status": "APPROVED_FROZEN_BEFORE_TIMING",
+  "dataset": "original full snapshot, not quality train or Part2d fixture",
+  "users": "10 sorted actual userIds at zero-based floor(k*(U-1)/9), k=0..9",
+  "warmup": "one full untimed workload per method",
+  "passes": 5,
+  "order": "even zero-based passes user then item; odd item then user",
+  "timer": "browser performance.now",
+  "scope": "actual production recommendation query, default Top5, no trace or DOM; includes cosine validation, neighbour selection, accumulation, sorting",
+  "similarityCache": false,
+  "initialization": "5 separate loadData calls with fetch/decode, parse/validate, matrix/columns timings; browser HTTP cache default, server no Cache-Control, not cold-network latency",
+  "summary": "median and linear-interpolated IQR of workload total per pass, per-user median range",
+  "discardOutliers": false
+}
