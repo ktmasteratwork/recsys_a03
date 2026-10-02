@@ -1,0 +1,47 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build exact validated site artifact
+        run: |
+          mkdir -p _site
+          cp index.html style.css data.js script.js u.data _site/
+          curl -L --fail --retry 3             "https://raw.githubusercontent.com/dryjins/RecSys-LLMs/c00cfa1977dbeeb2155d3b70280cb9b382a24865/week3/u.item"             -o _site/u.item
+          echo "553841ebc7de3a0fd0d6b62a204ea30c1e651aacfb2814c7a6584ac52f2c5701  _site/u.item" | sha256sum -c -
+          echo "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490  _site/u.data" | sha256sum -c -
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
