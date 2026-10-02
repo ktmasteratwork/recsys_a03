@@ -1,0 +1,42 @@
+{
+  "selection": {
+    "userId": 1,
+    "history": [
+      {"id":168,"rating":5},
+      {"id":172,"rating":5},
+      {"id":165,"rating":5},
+      {"id":156,"rating":4},
+      {"id":166,"rating":5}
+    ],
+    "beforeOutputs": true
+  },
+  "commonCandidateCount": 1675,
+  "a02": {
+    "top5": [
+      {"id":6,"title":"Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)","score":0.7276068751089988},
+      {"id":9,"title":"Dead Man Walking (1995)","score":0.7276068751089988},
+      {"id":15,"title":"Mr. Holland's Opus (1995)","score":0.7276068751089988},
+      {"id":18,"title":"White Balloon, The (1995)","score":0.7276068751089988},
+      {"id":19,"title":"Antonia's Line (1995)","score":0.7276068751089988}
+    ]
+  },
+  "user": [
+    {"id":26,"title":"Brothers McMullen, The (1995)","score":5,"support":1,"rank":1},
+    {"id":30,"title":"Belle de jour (1967)","score":5,"support":1,"rank":2},
+    {"id":45,"title":"Eat Drink Man Woman (1994)","score":5,"support":2,"rank":3},
+    {"id":60,"title":"Three Colors: Blue (1993)","score":5,"support":1,"rank":4},
+    {"id":101,"title":"Heavy Metal (1981)","score":5,"support":1,"rank":5}
+  ],
+  "item": [
+    {"id":314,"title":"3 Ninjas: High Noon At Mega Mountain (1998)","score":5,"support":4,"rank":1},
+    {"id":360,"title":"Wonderland (1997)","score":5,"support":4,"rank":2},
+    {"id":361,"title":"Incognito (1997)","score":5,"support":2,"rank":3},
+    {"id":437,"title":"Amityville 1992: It's About Time (1992)","score":5,"support":4,"rank":4},
+    {"id":439,"title":"Amityville: A New Generation (1993)","score":5,"support":4,"rank":5}
+  ],
+  "overlaps": {
+    "a02User": [],
+    "a02Item": [],
+    "userItem": []
+  }
+}
