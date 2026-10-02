@@ -1,0 +1,42 @@
+{
+  "eligible": 942,
+  "ineligible": [{"userId": 685, "reason": "no positive"}],
+  "trainRatings": 99058,
+  "methods": {
+    "user": {
+      "hits": 13,
+      "HR@5": 0.013800424628450107,
+      "MRR@5": 0.00799716914366596,
+      "nonemptyUserCoverage": 1.0,
+      "zeroOutputRate": 0.0,
+      "zeroOutputs": 0,
+      "fullFiveUsers": 942,
+      "distinctRecommendedMovies": 286,
+      "errors": 0
+    },
+    "item": {
+      "hits": 0,
+      "HR@5": 0.0,
+      "MRR@5": 0.0,
+      "nonemptyUserCoverage": 1.0,
+      "zeroOutputRate": 0.0,
+      "zeroOutputs": 0,
+      "fullFiveUsers": 942,
+      "distinctRecommendedMovies": 188,
+      "errors": 0
+    },
+    "popularity": {
+      "hits": 99,
+      "HR@5": 0.10509554140127389,
+      "MRR@5": 0.061411889596603014,
+      "nonemptyUserCoverage": 1.0,
+      "zeroOutputRate": 0.0,
+      "zeroOutputs": 0,
+      "fullFiveUsers": 942,
+      "distinctRecommendedMovies": 59,
+      "errors": 0
+    }
+  },
+  "splitSHA256": "18913fa4da281d5eb3f57bafabbb619453f168d472035b44676323ce162cc126",
+  "endpointTolerance": 1e-12
+}
