@@ -1,0 +1,34 @@
+{
+  "M06": {
+    "id": 3,
+    "title": "Fixture 3",
+    "score": 2.964131893735635,
+    "support": 2,
+    "trace": {
+      "activeUserId": 1,
+      "candidateId": 3,
+      "contributors": [
+        {"neighbourId":2,"rating":5,"similarity":0.9647638212377322,"product":4.823819106188661,"support":2},
+        {"neighbourId":3,"rating":1,"similarity":1,"product":1,"support":1}
+      ],
+      "numerator": 5.823819106188661,
+      "denominator": 1.964763821237732
+    }
+  },
+  "M07": {
+    "id": 3,
+    "title": "Fixture 3",
+    "score": 2.7346157448138357,
+    "support": 2,
+    "trace": {
+      "activeUserId": 1,
+      "candidateId": 3,
+      "contributors": [
+        {"sourceItemId":1,"rating":5,"similarity":0.765704864789611,"product":3.828524323948055,"support":2},
+        {"sourceItemId":2,"rating":1,"similarity":1,"product":1,"support":1}
+      ],
+      "numerator": 4.828524323948055,
+      "denominator": 1.765704864789611
+    }
+  }
+}
