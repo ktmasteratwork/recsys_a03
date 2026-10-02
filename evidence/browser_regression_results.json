@@ -1,0 +1,36 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "results": [
+    {"name":"D3 repeated successful loads","pass":true},
+    {"name":"D3 in-flight shared promise and loading UI","pass":true},
+    {"name":"D3 concurrency canonical","pass":true},
+    {"name":"D1 all rows mapping19 and Western endpoint","pass":true},
+    {
+      "name":"D4 all9 affected titles /12 UTF8 replacements",
+      "pass":true,
+      "detail":[
+        {"id":543,"title":"Misérables, Les (1995)"},
+        {"id":1005,"title":"Double vie de Véronique, La (Double Life of Veronique, The) (1991)"},
+        {"id":1104,"title":"C'est arrivé près de chez vous (1992)"},
+        {"id":1233,"title":"Nénette et Boni (1996)"},
+        {"id":1252,"title":"Contempt (Mépris, Le) (1963)"},
+        {"id":1322,"title":"Metisse (Café au Lait) (1993)"},
+        {"id":1366,"title":"JLG/JLG - autoportrait de décembre (1994)"},
+        {"id":1623,"title":"Cérémonie, La (1995)"},
+        {"id":1633,"title":"Á köldum klaka (Cold Fever) (1994)"}
+      ]
+    },
+    {"name":"D5 computed color","pass":true},
+    {"name":"D6 contextual text and safe titles","pass":true},
+    {"name":"D7 genuine empty wording no stale list","pass":true},
+    {"name":"distinct no-selection state","pass":true},
+    {"name":"real UI both lists5","pass":true},
+    {"name":"item:firstPass","pass":true},
+    {"name":"item:retryPass","pass":true},
+    {"name":"data:firstPass","pass":true},
+    {"name":"data:retryPass","pass":true},
+    {"name":"stale:pass","pass":true},
+    {"name":"stale:retryPass","pass":true}
+  ]
+}
