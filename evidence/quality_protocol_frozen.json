@@ -1,0 +1,15 @@
+{
+  "status": "APPROVED_WITH_CORRECTION_B_FROZEN_BEFORE_RESULTS",
+  "seed": 42,
+  "hash": "SHA256 UTF8 A03|42|userId|movieId; lowercase hex ascending; movieId ascending tie",
+  "eligibility": "at least one rating>=4 and at least two total ratings",
+  "split": "one minimum-hash positive removed per eligible user, single global train; all others retained",
+  "candidateUniverse": "entire catalog minus user's TRAIN-rated movies",
+  "strategies": ["UserCF global N=20", "ItemCF all positive anchors", "TRAIN rating-count popularity"],
+  "missing": "co-rated only",
+  "prediction": "positive similarity weighted normalized average",
+  "sort": "unrounded score descending, numeric ID ascending",
+  "metrics": ["HR@5", "MRR@5", "nonempty-user coverage", "zero-output rate"],
+  "failures": "retain and report; count as miss and zero-output",
+  "tuning": false
+}
