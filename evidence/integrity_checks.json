@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "unit": 29,
+  "browser": 16,
+  "fullListParity": 20,
+  "targetParity": 942,
+  "allStage4FilesByteUnchanged": true,
+  "datasetsA02StarterStudentDocxUnchanged": true,
+  "frozenSplitSelectionUnchanged": true,
+  "runtimeAll100Measurements": true,
+  "onlyProductionChange": "work/script.js",
+  "status": "READY_FOR_STUDENT_M09"
+}
