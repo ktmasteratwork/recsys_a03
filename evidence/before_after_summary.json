@@ -1,0 +1,40 @@
+{
+  "checks": {
+    "unitPassed": 29,
+    "browserPassed": 16,
+    "fullListJSPythonComparisonsPassed": 20,
+    "all942TargetJSChecksPassed": 942
+  },
+  "productionTop5User1": {
+    "userBefore": [309,318,329,330,341],
+    "userAfter": [309,318,329,330,341],
+    "itemBefore": [1156,1653,1601,1618,1656],
+    "itemAfter": [1156,1653,1601,1618,1656]
+  },
+  "part2dItem": {
+    "beforeIds": [360,884,1164,1429,1431],
+    "beforeScores": [5.000000000000001,5.000000000000001,5.000000000000001,5.000000000000001,5.000000000000001],
+    "afterIds": [314,360,361,437,439],
+    "afterScores": [5,5,5,5,5]
+  },
+  "quality": {
+    "user": {"hitsBefore":12,"hitsAfter":13,"HR@5After":0.013800424628450107,"MRR@5After":0.00799716914366596},
+    "item": {"hitsBefore":0,"hitsAfter":0,"HR@5After":0,"MRR@5After":0},
+    "popularity": {"hitsBefore":99,"hitsAfter":99,"HR@5After":0.10509554140127389,"MRR@5After":0.061411889596603014}
+  },
+  "runtimeMedianMsFor10UserWorkload": {
+    "userBefore":64.4,
+    "userAfter":44.1,
+    "itemBefore":10798.5,
+    "itemAfter":7084.5
+  },
+  "itemTargetDiagnosticsAfter": {
+    "users":942,
+    "candidatePresent":942,
+    "scored":942,
+    "rank":{"min":74,"q1":641.25,"median":802.5,"q3":966.75,"max":1499},
+    "hitsDiagnostic":{"5":0,"10":0,"20":0,"50":0,"100":2}
+  },
+  "protocolChanges": "none; only endpoint numerical protection changed",
+  "tuning": false
+}
